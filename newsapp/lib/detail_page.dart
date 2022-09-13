@@ -19,7 +19,9 @@ class ArticleDetailPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.network(article.urlToImage),
+            Hero(
+                tag: article.urlToImage,
+                child: Image.network(article.urlToImage)),
             Padding(
               padding: const EdgeInsets.all(10),
               child: Column(
