@@ -5,7 +5,7 @@ import 'dart:convert';
 
 class ApiService {
   static const String _baseUrl = 'https://newsapi.org/v2/';
-  static const String _apiKey = 'API_KEY';
+  static const String _apiKey = 'db39a0dd8ab84b7292152f6a5018bdcf';
   static const String _category = 'business';
   static const String _country = 'id';
 
